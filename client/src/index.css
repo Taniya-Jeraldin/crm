@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 1440px;
+  background-color:#fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  position: relative; /* Ensure wrapper acts as the positioning context for img-3 */
+  width: 600px;
+  background: #fff;
+  color: #fff;
+  margin-top: 310px;
+  margin-right: -200px;
+  z-index: 1;
+}
+
+
+
+.wrapper h1{
+width: 100%;  
+font-size: 50px;
+display: block;
+background-color: #368892;
+border: none;
+border-radius: 40px;
+text-align: center;
+
+}
+
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(to bottom, #bce9eb, #ffffff);
+  margin: 50px 0;
+  border-radius: 10px;
+}
+
+.input-box input{
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none; 
+  font-size: 40px;
+  margin-left: 40px;
+  padding: 10px
+  
+}
+
+.input-box input::placeholder{
+  color: #B3B3B3;
+  
+}
+
+.input-box .icon{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top:15px;
+  color: #B3B383;
+
+}
+
+.wrapper .remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
+
+.remember-forgot label {
+  color: #000;
+}
+
+
+.remember-forgot a {
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.remember-forgot a:hover{
+  text-decoration: underline;
+  color: blue;
+
+}
+
+.wrapper button{
+  cursor: pointer;
+  width: 50%;
+  margin-top: 60px;
+  margin-left: 150px;
+  background-color: #294D61;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  
+}
+
+.wrapper button:hover{
+  background-color: #8bc63f;
+  color: #000;
+}
+
+.img-1 {
+  position: relative; 
+  z-index: 1;
+  height: 100vh; 
+}
+
+.img-2{
+  margin-left: -470px;
+  height: 100vh;
+}
+
+.img-3{
+  position: absolute;
+  top: 150px;
+  left: 65%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
